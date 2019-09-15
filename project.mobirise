@@ -1,0 +1,343 @@
+{
+  "settings": {
+    "name": "www.MFRLeague.com",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise3",
+      "styling": {
+        "primaryColor": "#000000",
+        "secondaryColor": "#ffffff",
+        "successColor": "#ffffff",
+        "infoColor": "#fac51c",
+        "warningColor": "#fac51c",
+        "dangerColor": "#efefef",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Montserrat",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      },
+      "additionalSetColors": [
+        "#0d0808"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.10.5",
+    "siteFonts": [],
+    "uniqCompNum": 9,
+    "versionPublish": "4.10.5",
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/screenshot-128x60.png",
+    "noImageResize": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#cccccc"
+            },
+            ".mbr-section-lead": {
+              "color": "#9c9a9a",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px"
+            },
+            ".mbr-section-title I": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            ".btn": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1281.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.1"
+          },
+          "title": "<i>MUH' F#%IN RAP LEAGUE</i>",
+          "text": "Bring Yo best Lyrics!<br>Bring Yo best punchlines!<br>Bring Yo A Game!<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"tel:815-277-9828\" data-toolbar=\"-mbrBtnMove\">Contact US</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"mailto:canigetfamous@gmail.com\" data-toolbar=\"-mbrBtnMove\">Register</a> ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-0"
+        },
+        {
+          "_inherit": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1503.jpeg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.6"
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "text": "FOLLOW US",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Facebook\" target=\"_blank\" href=\"http://facebook.com/Can-I-Get-Famous-Mgmt-108687113835440/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCoKoFD9FM69VyItLPyJCFUQ?view_as=subscriber\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a>       ",
+          "_name": "social-buttons4",
+          "_anchor": "social-buttons4-4"
+        },
+        {
+          "_params": {
+            "token": "10806828674.727bfe1.6d794b4d79b2457c9f29f62019fd7d7d",
+            "showTitle": true,
+            "layoutGridRadio": false,
+            "imagesPerRowGrid": 4,
+            "rows": 2,
+            "showMoreButton": true,
+            "layoutSliderRadio": true,
+            "imagesPerRowSlider": 4,
+            "spacing": 5,
+            "fullWidth": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColorRadio": true,
+            "bgColor": "#0d0808",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
+            "overlay": false,
+            "overlayColor": "#efefef",
+            "overlayOpacity": 0.6
+          },
+          "title": "Instagram Feed",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"#\">Show more</a>",
+          "display2": "display-2",
+          "display4": "display-4",
+          "alias": "instagram-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "instagram-feed-block",
+          "_anchor": "instagram-feed-block-5"
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-size": "25px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": true,
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1047.jpeg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.8"
+          },
+          "title": "Check out or Sponsers<br>",
+          "text": "",
+          "_tags": [
+            "Theme"
+          ],
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"http://icefreezejewelry.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ICE FREEZE<br>JEWLERY<br></a> <a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://thespotchicago.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">THE SPOT<br>FOR<br>FITS AND KICKS<br></a> <a data-app-btn=\"true\" class=\"btn btn-info\" href=\"http://rosatispizza.com/location/matteson-il/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ROSATI'S<br>PIZZA<br>MATTESON<br></a> <a data-app-btn=\"true\" class=\"btn btn-info\" href=\"mailto:canigetfamous@gmail.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO BE<br>A SPONSER<br></a>",
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-6"
+        },
+        {
+          "_inherit": "content5",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "text-align": "right",
+              "color": "#fff"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": "5",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/embed/Ler6YY8QM3g?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://www.https://www.youtube.com/watch?v=Ler6YY8QM3g",
+              "width": 1280,
+              "height": 720
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.5"
+          },
+          "title": "WHO'S<br>THE<br>BEST?",
+          "caption": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content8",
+          "_anchor": "content8-6"
+        },
+        {
+          "_inherit": "content5",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "text-align": "right",
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": "2",
+            "paddingBottom": "5",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/embed/ow1JgNZ4JyQ?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://www.youtube.com/watch?v=ow1JgNZ4JyQ",
+              "width": 1280,
+              "height": 720
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "title": "ARE YOU<br>THE<br>BEST?",
+          "caption": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content8",
+          "_anchor": "content8-7"
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1440.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#494646",
+            "overlay": true,
+            "overlayColor": "#c1c1c1",
+            "overlayOpacity": "0.4",
+            "facebook": true,
+            "twitter": false,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "<i>SHARE THIS PAGE!</i>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-6"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "SUBSCRIBE FORM",
+          "subtitle": "Find out about your favorite artist or how to be come the next face of the league!<br>Subscribe Now!",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SUBSCRIBE</a>",
+          "form": {
+            "action": "canigetfamous@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!\nfor the latest details inbox us on facebook @GETFAMOUS312!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Your Email"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-8"
+        }
+      ]
+    }
+  }
+}
